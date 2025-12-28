@@ -42,3 +42,11 @@ All deer datasets were obtained through the NBN Occurrence Explorer by searching
 Due to licensing restrictions, **raw occurrence data is not included in this repository**.  
 Users wishing to reproduce the analysis must download the datasets directly from NBN Atlas and place them in the project’s `data/` directory.  
 All processing, cleaning, and modelling code is provided in the notebooks.
+
+## Data Privacy & Geomasking
+
+To comply with NBN Atlas licensing requirements and to protect sensitive wildlife locations, all spatial coordinates used in this project are **geomasked** before any analysis or visualisation.  
+This involves applying a small random offset to each latitude/longitude pair (while respecting any existing coordinate uncertainty provided by NBN Atlas).  
+The resulting masked coordinates preserve broad spatial patterns needed for modelling while preventing the identification of precise deer locations or landowner properties.
+
+Raw, unmodified coordinates from NBN Atlas are never included in this repository.
