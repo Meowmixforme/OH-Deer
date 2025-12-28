@@ -1,4 +1,4 @@
-# OH-Deer
+# OH-Deer 🦌
 
 ## Project Overview
 
