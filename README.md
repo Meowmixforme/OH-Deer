@@ -50,3 +50,9 @@ This involves applying a small random offset to each latitude/longitude pair (wh
 The resulting masked coordinates preserve broad spatial patterns needed for modelling while preventing the identification of precise deer locations or landowner properties.
 
 Raw, unmodified coordinates from NBN Atlas are never included in this repository.
+
+## Data Licensing
+This project uses OS Terrain® 50 elevation data, which is free to use under the terms of the Open Government Licence (OGL).
+``` Contains OS data © Crown copyright and database right 2025. Licensed under the Open Government Licence. ```
+
+
